@@ -186,6 +186,23 @@ const Header = () => {
                                         <br /><br />
                                         I have many dreams, such as sending my parents on Umrah, taking good care of my mother's health, and many others. I trust that, with Allah's help, one day I will achieve my dreams and goals, Insha'Allah.
                                     </p>
+                                   <span className='flex justify-end'>
+                                    <button
+  onClick={handleExpand}
+  className={`
+    relative px-6 md:px-8 py-3 md:py-4 mt-5
+    bg-gradient-to-r from-purple-600 to-pink-500
+    text-white font-semibold rounded-full
+    transition-all duration-300 transform
+    hover:from-purple-700 hover:to-pink-600
+    active:scale-95
+    flex items-center gap-2
+    text-base md:text-lg
+  `}
+>
+  {isExpanded ? "Hide details" : "More details"}
+</button>
+                                   </span>
                                 </div>
                             </div>
                         </div>

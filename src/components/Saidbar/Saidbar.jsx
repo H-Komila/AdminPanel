@@ -23,7 +23,7 @@ const Saidbar = ({ open, setOpen }) => {
 
   return (
     <>
-      {/* Overlay (mobile) */}
+     
       {open && (
         <div
           onClick={() => setOpen(false)}
@@ -41,32 +41,34 @@ const Saidbar = ({ open, setOpen }) => {
           md:translate-x-0
         `}
       >
-        {/* Close button (mobile) */}
+        
         <div className="flex justify-end md:hidden">
           <button onClick={() => setOpen(false)}>
             <IoClose className="text-3xl text-white" />
           </button>
         </div>
 
-        {/* Profile */}
-        <img
+       
+       <span className="flex items-center justify-between">
+         <img
           src={Mushuk}
-          className="w-28 rounded-full mx-auto mb-6"
+          className="w-24 rounded-full mx-auto mb-6"
           alt=""
         />
 
-        {/* Dark mode */}
+        
         <button
           onClick={() => setDarkMode(!darkMode)}
           className="text-3xl block mx-auto mb-6"
         >
           {darkMode ? "☀️" : "🌙"}
         </button>
+       </span>
 
-        {/* Menu */}
+        
         <ul className="space-y-4">
           <li><Link className="menu" to="/header" onClick={()=>setOpen(false)}>About Myself</Link></li>
-          <li><Link className="menu" to="/aside" onClick={()=>setOpen(false)}>My Family</Link></li>
+          <li><Link className="menu" to="/aside" onClick={()=>setOpen(false)}>My Project</Link></li>
           <li><Link className="menu" to="/article" onClick={()=>setOpen(false)}>My Friends</Link></li>
           <li><Link className="menu" to="/section" onClick={()=>setOpen(false)}>My Teacher</Link></li>
           <li><Link className="menu" to="/favorites" onClick={()=>setOpen(false)}>Favorites</Link></li>
