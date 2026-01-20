@@ -179,8 +179,7 @@ const Header = () => {
                                     Xibziddinova Komila Sharofiddinovna
                                 </h1>
                                 <div className='bg-white/10 dark:bg-gray-800/30 backdrop-blur-sm rounded-2xl p-4 md:p-6 lg:p-8 border border-white/20 dark:border-gray-700/50'>
-                                    <p className="text-sm md:text-base lg:text-lg font-serif text-white opacity-90 dark:opacity-80 leading-relaxed text-justify">
-
+                                    <p className={`text-sm md:text-base lg:text-lg font-serif text-white opacity-90 dark:opacity-80 leading-relaxed text-justify transition-all duration-500 ${isExpanded ? '' : 'line-clamp-5 md:line-clamp-6'}`}>
                                         Hello, my name is Komila Xibziddinova. I live in Parkent district, Tashkent region. I was raised in a middle-class family. There are three daughters in my family, and I am the youngest. I was born on July 1, 2003. In 2010, I started first grade and graduated from school on May 25, 2021.
                                         <br /><br />
                                         After that, I tried to enter university, but by fate, I could not. To help my family, I worked in the textile industry for three years. Later, I saw IT Academy on social media, and out of interest, I joined the IT Academy to study Front-end development. When I started studying, I barely knew how to turn on a computer. Thanks to my teacher, I learned a lot. Alhamdulillah, now, Insha'Allah, I will get a good job and make my parents, my family, and of course my teacher proud.
