@@ -146,7 +146,7 @@ const Header = () => {
                                 <div className={`absolute right-0 top-12 md:top-14 bg-white dark:bg-gray-800 rounded-lg shadow-xl p-3 md:p-4 z-50 transition-all duration-300 ease-in-out ${showPhone ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-4 scale-95 pointer-events-none'}`}>
                                     <div className='flex items-center gap-2'>
                                         <AiFillPhone className='text-green-500 text-lg' />
-                                        <span className='font-bold text-gray-800 dark:text-white text-sm md:text-base'>+99894 917 40 48</span>
+                                        <span className='font-bold text-gray-800 dark:text-white text-sm md:text-base'>+998949174048</span>
                                         <button 
                                             onClick={() => setShowPhone(false)}
                                             className='ml-2 text-gray-500 hover:text-gray-700 dark:hover:text-gray-300'
@@ -179,7 +179,8 @@ const Header = () => {
                                     Xibziddinova Komila Sharofiddinovna
                                 </h1>
                                 <div className='bg-white/10 dark:bg-gray-800/30 backdrop-blur-sm rounded-2xl p-4 md:p-6 lg:p-8 border border-white/20 dark:border-gray-700/50'>
-                                    <p className={`text-sm md:text-base lg:text-lg font-serif text-white opacity-90 dark:opacity-80 leading-relaxed text-justify transition-all duration-500 ${isExpanded ? '' : 'line-clamp-5 md:line-clamp-6'}`}>
+                                    <p className="text-sm md:text-base lg:text-lg font-serif text-white opacity-90 dark:opacity-80 leading-relaxed text-justify">
+
                                         Hello, my name is Komila Xibziddinova. I live in Parkent district, Tashkent region. I was raised in a middle-class family. There are three daughters in my family, and I am the youngest. I was born on July 1, 2003. In 2010, I started first grade and graduated from school on May 25, 2021.
                                         <br /><br />
                                         After that, I tried to enter university, but by fate, I could not. To help my family, I worked in the textile industry for three years. Later, I saw IT Academy on social media, and out of interest, I joined the IT Academy to study Front-end development. When I started studying, I barely knew how to turn on a computer. Thanks to my teacher, I learned a lot. Alhamdulillah, now, Insha'Allah, I will get a good job and make my parents, my family, and of course my teacher proud.
@@ -234,8 +235,8 @@ const Header = () => {
                                 },
                                 { 
                                     icon: <FaInstagram />, 
-                                    url: "https://komi_la571_developer",
-                                    color: "text-pink-600"
+                                    url: "https://www.instagram.com/komi_la571_developer",
+                                    color:"text-pink-600"
                                 },
                                 { 
                                     icon: <FaTelegram />, 

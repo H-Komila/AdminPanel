@@ -4,6 +4,11 @@
 
 
 
+.menu-link {
+  @apply text-2xl text-white font-bold block hover:translate-x-2 transition;
+}
+
+
 body.darkMode {
     background: linear-gradient(to top, #000000, #302f2f, #3b3b3b); 
     color: #f5f5f5;           
