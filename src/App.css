@@ -26,3 +26,20 @@ body.lightMode {
     color: #000; 
 }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation-name: fadeInUp;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+}

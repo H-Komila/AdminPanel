@@ -22,7 +22,7 @@ const Header = () => {
     const phoneRef = useRef(null);
     const videoRef = useRef(null);
 
-    // Animation for "More details" button
+ 
     const [isHovered, setIsHovered] = useState(false);
 
     const handleSearchClick = () => {

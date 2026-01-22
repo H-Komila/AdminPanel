@@ -10,20 +10,28 @@ import Layout from './components/Layout/Layout'
 
 
 
+
 const App = () => {
   return (
     <>
-    <BrowserRouter>
+    <div>
+   
+      <BrowserRouter>
             <Routes>
+              
                   <Route path='/' element={<Layout />}>
                       <Route path= "header" element={<Header/>} />
                       <Route path= "article" element={<Article/>} />
                       <Route path= "section" element={<Section/>} />
                       <Route path= "aside" element={<Aside/>} />
-                      <Route path= "favorites" element={<Favorites/>} />
+                      <Route path= "/favorites" element={<Favorites/>} />
                   </Route>
             </Routes>
     </BrowserRouter>
+
+    </div>
+
+    
         
 
     </>
