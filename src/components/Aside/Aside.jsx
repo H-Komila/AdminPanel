@@ -56,7 +56,7 @@ const Aside = () => {
       <div className="container mx-auto">
         
         {/* --- YUQORI TUGMALAR --- */}
-        <div className='flex items-center justify-end gap-3 mb-8 relative z-50'>
+        <div className='flex items-center justify-end gap-3 mb-8 relative z-1'>
           
           {/* Qidiruv tugmasi */}
           <div ref={searchRef} className='relative flex items-center'>

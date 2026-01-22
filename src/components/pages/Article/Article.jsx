@@ -75,7 +75,7 @@ const Article = () => {
       <div className="container mx-auto">
         
         {/* --- YUQORI TUGMALAR BLOKI --- */}
-        <div className='flex items-center justify-end gap-3 md:gap-5 mb-6 relative z-50'>
+        <div className='flex items-center justify-end gap-3 md:gap-5 mb-6 relative z-1'>
           
           {/* Qidiruv */}
           <div ref={searchRef} className='relative flex items-center'>

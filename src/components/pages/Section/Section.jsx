@@ -20,7 +20,7 @@ const Section = () => {
   }, []);
 
   return (
-    <div className="min-h-screen p-4 md:p-8 lg:p-12 relative ">
+    <div className="min-h-screen p-4 md:p-8 lg:p-12 relative z-1 ">
       <div className="container mx-auto max-w-6xl">
         
         {/* O'NG TOMON YUQORI QISMDAGI TUGMALAR */}
